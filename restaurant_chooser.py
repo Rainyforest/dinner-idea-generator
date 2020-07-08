@@ -35,7 +35,7 @@ class OpeningHours():
 class PlaceAPI():
 
     def __init__(self):
-        self.key = ""
+        self.key = "" # add your google api token here
         self.client = googlemaps.Client(self.key)
         self.location = (48.460930, -123.334244)
         self.type = 'restaurant'
